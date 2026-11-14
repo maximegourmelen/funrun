@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+Secrets.xcconfig
+GoogleService-Info.plist
+
+# Supabase
+supabase/.temp/
+supabase/.branches/
+
+# Claude Code: personal (non-shared) settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Node (if any tooling is added)
+node_modules/

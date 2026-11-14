@@ -1,0 +1,16 @@
+schemaVersion: 1
+# Default is just "simulator"; add UI automation (tap/swipe/screenshot/snapshot_ui)
+# plus simulator management and project discovery.
+enabledWorkflows:
+  - simulator
+  - ui-automation
+  - simulator-management
+  - project-discovery
+  - session-management
+sessionDefaults:
+  projectPath: ./Fun Run.xcodeproj
+  scheme: Fun Run
+  configuration: Debug
+  simulatorName: iPhone 17
+  useLatestOS: true
+  bundleId: com.maximegourmelen.Fun-Run
